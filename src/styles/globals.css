@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  /* @apply bg-gray-100 text-gray-900; */
+}
+
+.fiintown-active-tabs-tab{
+  color: blue  !important;
+  border-bottom:  3px solid blue;
+}
+/* CODE CSS HEADER */
+.fiintown-col{
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+}
+.fiintown-rowgap{
+  row-gap: 0px;
+}
+
+.fiinTown-text-nav{
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.cursor-unset {
+  cursor: unset;
+}
+.cursor-pointer {
+  cursor: pointer;  
+}
+.header{
+  position: fixed;
+  width: 100%;
+  padding-left: 56px;
+  box-shadow: 0px 5px 10px #0000004d;
+  border-bottom: 1px solid #ffffff19;
+  z-index: 1000;
+  top: 0;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+}
+.header_search{
+  background-color: #ffffff0c;
+  width: 330px;
+  padding: 6px 17px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  border-radius: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+.header_search_icons{
+  width: 16px;
+  height: 16px;
+}
+.header_search_text{
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: #a7adb2;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+/* CODE CSS sidebar*/
+
